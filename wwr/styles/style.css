@@ -244,6 +244,54 @@ main section img {
     transform: scale(1.1);
 }
 
+/* SUB PAGE */
+
+#sub-content {
+    display: grid;
+    margin: 50px auto;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+#sub-content h1{
+    color: #7AF500;
+    grid-column: 2/12;
+}
+
+#sub-content section{
+    display: grid;
+    margin: 50px 0;
+    grid-template-columns: auto auto ;
+    grid-column: 2/12;
+}
+
+#sub-content section img {
+    width: 400px;
+    height: auto;
+    border: 10px solid #5fadfc;
+}
+
+.river-info-1 .river-detail, .river-info-3 .river-detail {
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.river-info-1 h2, .river-info-3 h2 {
+    text-align: left;
+    margin-left: 50px;
+}
+
+.river-info-2 .river-detail {
+    text-align: right;
+    margin-right: 50px;
+    margin-top: 10px;
+}
+
+.river-info-2 h2 {
+    text-align: right;
+    margin-right: 50px;
+}
+
 /* RESPONSIVE DESIGN*/
 
 @media screen and (max-width: 900px) {
