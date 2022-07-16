@@ -12,9 +12,9 @@ header {
     margin: 0 auto;
     display: grid;
     grid-template-columns: auto 150px auto;
-    grid-template-rows: 150px;
+    grid-template-rows: 120px;
     background-color: white;
-    border-bottom: 2px solid #97e70e;
+    border-bottom: 3px solid #97e70e;
     margin-bottom: 1px;
     border-bottom-left-radius: 70px;
     border-bottom-right-radius: 70px;
@@ -25,11 +25,11 @@ nav {
     justify-content: space-around;
     align-items: baseline;
     width: 50%;
-    margin-left: 100px;
+    margin-top: 45px;
+    margin-left: 80px;
     font-family: "Open Sans";
     font-size: 20px;
     color: #0c4000;
-    margin-top: 70px;
 }
 
 h3, h2 {
@@ -44,7 +44,7 @@ a , a:visited {
 nav a {
     text-decoration: none;
     padding: 20px 20px;
-    margin-top: 10px;
+    margin-top: 5px;
     margin-bottom: 6px;
     border-radius: 70px;
 }
@@ -55,10 +55,10 @@ nav a:hover, nav a:active{
 }
 
 header img {
-    margin: 10px auto;
+    margin: 5px auto;
     border: 1.5px solid #97e70e;
-    width: 130px;
-    height: 130px;
+    width: 110px;
+    height: 110px;
     border-radius: 70px;
 }
 
@@ -70,7 +70,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #0c4000;
+    background-color: #97e70e;
     color: white;
     text-align: center;
     border-top-left-radius: 70px;
@@ -97,6 +97,8 @@ footer a img {
     grid-row: 1 / 4;
     width: 1300px;
     height: 600px;
+    border-top-left-radius: 70px;
+    border-top-right-radius: 70px;
 }
 
 .slide-label {
@@ -118,6 +120,10 @@ footer a img {
     padding: 10px;
 }
 
+.button:hover {
+    padding: 11px;
+}
+
 .pics {
     margin: 0;
     display: grid;
@@ -125,25 +131,25 @@ footer a img {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-.pics section{
+.pics .section{
     margin: 100px auto;
     text-align: center;
 }
 
-.pics section img{
+.pics .section img{
     width: 250px;
     height: 250px;
     border: 5px solid #97e70e;
     border-radius: 70px;
 }
 
-.pics section .label {
+.pics .section .label {
     color: #0c4000;
     font-family: "Open Sans";
     font-size: 20px;
 }
 
-.block1 {
+#block1 {
     grid-column: 1/2;
 }
 
@@ -187,15 +193,15 @@ footer a img {
     text-align: center;
   }
 
-.block2 {
+#block2 {
     grid-column: 2/3;
 }
 
-.block3 {
+#block3 {
     grid-column: 3/4;
 }
 
-.block1 .label, .block2 .label, .block3 .label{
+#block1 .label, #block2 .label, #block3 .label{
     margin-top: 30px;
 }
 
@@ -222,6 +228,10 @@ footer a img {
 }
 
 .text span {
+    color: #97e70e;
+}
+
+.subpage2 span {
     color: #97e70e;
 }
 
